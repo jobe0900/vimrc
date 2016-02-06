@@ -37,6 +37,10 @@
 execute pathogen#infect()
 
 " -- INSTALLED BUNDLES --------------------
+" NERDcommenter
+"                 https://github.com/scrooloose/nerdcommenter.git
+" Tagbar
+"                 https://github.com/majutsushi/tagbar
 " NERDtree
 "     2015-11-21  https://github.com/scrooloose/nerdtree
 "     2015-11-21  https://github.com/jistr/vim-nerdtree-tabs
@@ -49,10 +53,24 @@ execute pathogen#infect()
 "     2015-11-21  https://github.com/Shougo/neocomplete.vim
 " Syntastic
 "     2015-11-21  https://github.com/scrooloose/syntastic
+" Easytags
+"                 https://github.com/xolox/vim-easytags
+" Misc
+"                 https://github.com/xolox/vim-misc
 " sensible.vim
 "     2015-11-21  https://github.com/tpope/vim-sensible.git
 " lexima.vim
 "     2015-12-07  https://github.com/cohama/lexima.vim
+" Clojure
+"                 https://github.com/guns/vim-clojure-static
+"                 https://github.com/guns/vim-clojure-highlight
+" Paredit
+ "                https://github.com/vim-scripts/paredit.vim
+" RainbowParentheses
+"                 https://github.com/kien/rainbow_parentheses.vim
+" Fireplace
+"                 https://github.com/tpope/vim-fireplace
+"
 
 
 " -- UNINSTALLED BUNDLES ------------------
@@ -256,7 +274,7 @@ inoremap <expr><BS> neocomplete#smart_close_popup()."\<C-h>"
 " Clojure Paredit
 let g:paredit_leader = '\'
 
-" CLojure syntax
+" Clojure syntax
 autocmd VimEnter *       RainbowParenthesesToggle
 autocmd Syntax   clojure RainbowParenthesesLoadRound
 autocmd Syntax   clojure RainbowParenthesesLoadSquare
