@@ -285,7 +285,10 @@ nnoremap <leader>rp :RainbowParenthesesToggle<CR>
 autocmd FileType html setlocal shiftwidth=2 tabstop=2
 
 " -- JavaScript -----------------------
-autocmd FileType js setlocal shiftwidth=2 tabstop=2
+autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
+
+" -- Jade template --------------------
+autocmd FileType jade setlocal shiftwidth=2 tabstop=2 softtabstop=2 expandtab
 
 
 " -- Go -------------------------------
