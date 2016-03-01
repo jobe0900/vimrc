@@ -70,7 +70,9 @@ execute pathogen#infect()
 "                 https://github.com/kien/rainbow_parentheses.vim
 " Fireplace
 "                 https://github.com/tpope/vim-fireplace
-"
+" vim-pug for Jade
+"     2016-03-01  https://github.com/digitaltoad/vim-pug.git 
+
 
 
 " -- UNINSTALLED BUNDLES ------------------
@@ -289,7 +291,7 @@ autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
 
 " -- Jade template --------------------
 autocmd FileType jade setlocal shiftwidth=2 tabstop=2 softtabstop=2 expandtab
-
+autocmd FileType jade setlocal shiftwidth=2 tabstop=2 softtabstop=2 expandtab
 
 " -- Go -------------------------------
 " vim-go syntax highlighting
